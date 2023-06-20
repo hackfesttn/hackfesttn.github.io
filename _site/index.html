@@ -70,23 +70,45 @@
 
     <!-- Header -->
     <header class="masthead d-flex">
-    <div class="container text-center">
-      <div class="p-3 mb-4 bg-danger text-white">
-        Mark your calendars! Hackfest 2023 is scheduled for June 23, 2023, at Elghazela Technopark. Stay tuned!
-      </div>
-      
-        <h1 class="text-white mb-1">Hackfest</h1>
-        <h3 class="text-white mb-5"> <!-- text-lightdark -->
-          <em>National Cybersecurity Competition</em>
-        </h3>
-        
-        <a class="btn btn-dark btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-
-
+  <div class="container text-center">
+    <div class="p-3 mb-4 bg-danger text-white">
+      Mark your calendars! Hackfest 2023 is scheduled for June 23, 2023, at Elghazela Technopark. Stay tuned!
     </div>
-    <div class="overlay"></div>
-</header>
 
+    <h1 class="text-white mb-1">Hackfest</h1>
+    <h3 class="text-white mb-5">
+      <!-- text-lightdark -->
+      <em>National Cybersecurity Competition</em>
+    </h3>
+
+  <a class="btn btn-dark btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+
+    <!-- Noscript content for added SEO -->
+    <noscript><a href="https://www.eventbrite.com/e/hackfest-tickets-662466915377" rel="noopener noreferrer"
+        target="_blank">Buy Tickets on Eventbrite</a></noscript>
+    <!-- You can customize this button any way you like -->
+    <button id="eventbrite-widget-modal-trigger-662466915377" type="button">Buy Tickets</button>
+
+    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+    <script type="text/javascript">
+      var exampleCallback = function () {
+        console.log('Order complete!');
+      };
+
+      window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '662466915377',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-662466915377',
+        onOrderComplete: exampleCallback
+      });
+    </script>
+
+
+  </div>
+  <div class="overlay"></div>
+</header>
 
     <!-- About -->
 <section class="content-section" id="about">
@@ -703,6 +725,28 @@ The association has set the following objectives:
                 </div>
                 <div class="team-layer">
                     <a href="#">Knani Alaaeddine (iwd)</a>
+                    <span class="post">CTF</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="/images/people/Badreddine_Chamkhi.jpg" alt=""/>
+                    <ul class="social">
+                        <li><a target="_blank" href="https://facebook.com/bchemkh"><i class="fab fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="https://twitter.com/retr0rocks"><i class="fab fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/badreddine-chamkhi-458103232"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a target="_blank" href="https://github.com/retr0rocks"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Badreddine Chamkhi (retr0)</h3>
+                    <small class="post">CTF</small>
+                </div>
+                <div class="team-layer">
+                    <a href="#">Badreddine Chamkhi (retr0)</a>
                     <span class="post">CTF</span>
                 </div>
             </div>
