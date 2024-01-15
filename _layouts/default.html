@@ -8,19 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="author" content="{{ site.author }}">
   <link type="text/plain" rel="author" href="{{ site.baseurl }}/humans.txt" />
-  <!-- Debug Output -->
-  {% if page.title %}
-  <p>Page Title: {{ page.title }}</p>
-  {% else %}
-  <p>No Page Title</p>
-  {% endif %}
 
-  {% if post.title %}
-  <p>Post Title: {{ post.title }}</p>
-  {% else %}
-  <p>No Post Title</p>
-  {% endif %}
-  <!-- End Debug Output -->
   <title>{% if page.title %}{{ page.title }} - {% elsif post.title %}{{ post.title }} - {% endif %}{{ site.title }}
   </title>
   {% capture description %}
@@ -38,6 +26,12 @@
   <link href="{{ site.baseurl }}/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
   <!-- Custom CSS -->
   <link href="{{ site.baseurl }}/assets/css/stylish-portfolio.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Kanit:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap" rel="stylesheet">
 </head>
 
 <body id="page-top">

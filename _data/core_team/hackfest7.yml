@@ -6,7 +6,11 @@
   twitter:
   github: https://github.com/maroueneboubakri
 
-
+- name: Chadha Sridi
+  position: Media
+  img: Chadha_Sridi.jpg
+  facebook: https://www.facebook.com/chadha.sridi.9
+  linkedin: https://www.linkedin.com/in/chadha-sridi-456b4a224/
 
 - name: Roua Ben Mimoun
   position: Media Manager
@@ -26,7 +30,16 @@
   linkedin: https://www.linkedin.com/in/anis-ouersighni-cybersec
   facebook: https://www.facebook.com/anis.wersighni.03
 
+- name: Achref ABIDI
+  position: Logistics
+  img: Achref_ABIDI.jpg
+  linkedin: https://www.linkedin.com/in/achref-abidi-pro/
 
+- name: Youssef Makhlouf 
+  position: Media
+  img: Youssef_Makhlouf.jpg
+  facebook: https://www.facebook.com/youssef.makhlouf.140
+  linkedIn: https://www.linkedin.com/in/youssef-makhlouf-608aa622a
 
 - name: Melek Salaani (layka_)
   position: CTF
@@ -36,6 +49,13 @@
   twitter:
   github: https://github.com/msalaani
 
+- name: Amel Rami
+  position: Media
+  img: Amel_Rami.jpg
+  facebook: https://www.facebook.com/amalasma.rami
+  linkedin: https://www.linkedin.com/in/amel-rami-0aa910224/
+  twitter:
+  github:
 
 - name: Moetez Afif
   position: Technical 
@@ -45,6 +65,13 @@
   twitter:
   github:
 
+- name: Rami Abidi
+  position: Designer 
+  img: Rami_Abidi.jpg
+  facebook: https://www.facebook.com/rami.abidi.391/
+  linkedin: https://linkedin.com/in/rami-abidi-320652242
+  twitter:
+  github:
 
 - name: Iyed Mejri (Wingz)
   position: CTF
@@ -70,4 +97,3 @@
   twitter: https://twitter.com/retr0rocks
   linkedin: https://www.linkedin.com/in/badreddine-chamkhi-458103232
   
-
