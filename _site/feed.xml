@@ -1,17 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-01-15T17:02:47+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hackfest</title><subtitle>Tunisia&apos;s National Cybersecurity Competition</subtitle><entry><title type="html">Sponsors</title><link href="http://localhost:4000/sponsors/" rel="alternate" type="text/html" title="Sponsors" /><published>2023-05-09T00:00:00+01:00</published><updated>2023-05-09T00:00:00+01:00</updated><id>http://localhost:4000/sponsors</id><content type="html" xml:base="http://localhost:4000/sponsors/"><![CDATA[<section class="content-section bg-light sponsors" id="sponsors">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-01-16T15:59:04+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hackfest</title><subtitle>Tunisia&apos;s National Cybersecurity Competition</subtitle><entry><title type="html">Sponsors</title><link href="http://localhost:4000/sponsors/" rel="alternate" type="text/html" title="Sponsors" /><published>2023-05-09T00:00:00+01:00</published><updated>2023-05-09T00:00:00+01:00</updated><id>http://localhost:4000/sponsors</id><content type="html" xml:base="http://localhost:4000/sponsors/"><![CDATA[<section class="content-section bg-light sponsors" id="sponsors">
   <div class="container">
 	<h2>Past Sponsors</h2>
 <p>
 We would like to acknowledge and thank our sponsors from past editions for their generous support and contributions to Hackfest.
 </p>
     <div class="row">
-    {% for sponsor in site.data.sponsors.past_sponsors %}    
+        
 	  <div class="col-md-3">
 	    <div class="sponsor-logo">
-	      <img src="/images/sponsors/{{sponsor.logo}}" class="img-fluid" alt="{{sponsor.name}}">
+	      <img src="/images/sponsors/sifaris.jpg" class="img-fluid" alt="Sifaris" />
 	    </div>
 	  </div>
-    {% endfor %}
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/cytekia.png" class="img-fluid" alt="Cytekia" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/ooredoo.png" class="img-fluid" alt="Ooredoo" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/s2t.png" class="img-fluid" alt="SMART TUNISIAN TECHNOPARKS" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/supcom.png" class="img-fluid" alt="SUPCOM" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/nextstep.png" class="img-fluid" alt="Next Step IT" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/ati.png" class="img-fluid" alt="ATI" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/satoripop.png" class="img-fluid" alt="Satoripop" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/poste.png" class="img-fluid" alt="La Poste Tunisienne" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/atb.png" class="img-fluid" alt="ATB" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/bna.png" class="img-fluid" alt="BNA" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/hat.png" class="img-fluid" alt="Hat Web Security" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/lpi.png" class="img-fluid" alt="LPI Maghreb" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/natilait.png" class="img-fluid" alt="Natilait" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/boga.png" class="img-fluid" alt="Boga" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/adsup.jpg" class="img-fluid" alt="Association des Diplomés de Sup'Com Tunis" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/tunivisions.png" class="img-fluid" alt="Tunivsions" />
+	    </div>
+	  </div>
+    
      </div>
   </div>
 </section>]]></content><author><name></name></author><category term="2023" /><category term="sponsors" /><summary type="html"><![CDATA[Past Sponsors We would like to acknowledge and thank our sponsors from past editions for their generous support and contributions to Hackfest.]]></summary></entry><entry><title type="html">CTF Rules</title><link href="http://localhost:4000/rules/" rel="alternate" type="text/html" title="CTF Rules" /><published>2023-01-01T00:00:00+01:00</published><updated>2023-01-01T00:00:00+01:00</updated><id>http://localhost:4000/rules</id><content type="html" xml:base="http://localhost:4000/rules/"><![CDATA[<section class="content-section bg-light" id="rules">
