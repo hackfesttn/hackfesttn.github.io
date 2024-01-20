@@ -494,7 +494,7 @@ card,
 
 .our-team .pic img {
   width: 100%;
-  height: auto;
+  height: 95%;
 }
 
 .our-team .social {
@@ -910,4 +910,9 @@ card,
 
 .program-header {
   text-align: left;
+}
+
+
+.event-location {
+  margin-left: 5%;
 }
