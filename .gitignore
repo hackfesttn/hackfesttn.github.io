@@ -1,0 +1,13 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+Gemfile.lock
+.bundle/
+vendor/
+
+# System/IDE
+.DS_Store
+*.swp
+.vscode/
+.idea/
