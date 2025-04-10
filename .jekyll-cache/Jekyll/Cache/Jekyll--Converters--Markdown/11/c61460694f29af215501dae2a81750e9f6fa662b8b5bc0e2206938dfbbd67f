@@ -1,11 +1,4 @@
----
-layout: default
-title: "CTF Rules"
-tags: 2023 rules
-permalink: /rules/
----
-
-<section class="content-section bg-light" id="rules">
+I"Ó"<section class="content-section bg-light" id="rules">
 <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
@@ -109,3 +102,4 @@ are absolutely forbidden and will result in disqualification.
 </div>
 </div>
 </section>
+:ET
