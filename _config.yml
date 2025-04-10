@@ -43,7 +43,11 @@ incremental: true
 #   - vendor/ruby/
 
 include: [".htaccess"]
+<<<<<<< HEAD
 ---
 registration_open_date: 2025-04-21 # Change to your desired date
 ---
 
+=======
+registration-open-date: 2025-4-21
+>>>>>>> d8af0eeb8432134309902d8e1eb34c4e7cf15b58
